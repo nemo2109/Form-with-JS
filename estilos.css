@@ -1,0 +1,29 @@
+.title{
+   text-align: center;
+}
+
+.box-1{
+  display: flex;
+  justify-content: center;
+}
+
+.box-2, .box-3{
+  display: flex;
+}
+
+.name{
+  margin-right: 20rem;
+  margin-bottom: 10%;
+}
+
+.work{
+  margin-right: 20rem;
+}
+
+.phone{
+  margin-bottom: 10%;
+}
+
+.about{
+  margin-top: 5%;
+}
