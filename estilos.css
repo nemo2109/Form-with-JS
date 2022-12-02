@@ -11,6 +11,10 @@
   display: flex;
 }
 
+.forma{
+  display: flex;
+}
+
 .name{
   margin-right: 20rem;
   margin-bottom: 10%;
