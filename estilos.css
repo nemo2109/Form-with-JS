@@ -19,35 +19,45 @@
 #name {
   color: blueviolet;
   margin-left: 6px;
+  margin-bottom: 5%;
 }
 
 #email {
   color: blueviolet;
   margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 #work {
   color: blueviolet;
   margin-left: 6px;
+  margin-bottom: 5%;
 }
 
 #phone {
   color: blueviolet;
+  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 #about {
   color: blueviolet;
+  margin-bottom: 10%;
 }
-
+.seccion{
+  display: flex;
+  justify-content: center;
+}
 .input1 {
   border: none;
   border-bottom: 1px solid blueviolet;
-  width: 41%;
+  width: 100%;
 }
 
 .input {
   border: none;
   border-bottom: 1px solid blueviolet;
+  width: 35%;
 }
 
 .boton {
@@ -58,7 +68,7 @@
   color: white;
   letter-spacing: 3px;
   font-size: 1rem;
-  width: 13%;
+  width: 33%;
 }
 
 
