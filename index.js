@@ -41,11 +41,18 @@ form.addEventListener('submit', (e) => {
 function crearCuadroDeForma(name, gmail, job, cell, about){
    const cuadroHtml = `
    <div class="contenedor">
-        <h1 class="contenedor__nombre">${name}</h1>
-        <p class="contendor__p">${gmail}</p>
-        <p class="contenedor__p">${job}</p>
-        <p class="contenedor__p">${cell}</p>
-        <p class="contenedor__p">${about}</p>
+   <div class="imagen">
+   <img src="./images.png" class="img">
+   <h4 id="titulo">Nohemy</h4>
+   <h3 id="titulo-2">Front End Dev</h3>
+   </div>
+   <div > 
+ <h1 class="contenedor__nombre">${name}</h1>
+ <p class="contendor__p">${gmail}</p>
+ <p class="contenedor__p">${job}</p>
+ <p class="contenedor__p">${cell}</p>
+ <p class="contenedor__p">${about}</p>
+ </div>
    </div>
    `
    return cuadroHtml
