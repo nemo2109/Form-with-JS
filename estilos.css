@@ -90,12 +90,14 @@
 
  .contenedor{
   display: flex;
- }
-
-#titulo, #titulo-2{
-text-align: center;
-color: whitesmoke;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+  #titulo, #titulo-2{
+ text-align: center;
+ color: whitesmoke;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 
 
