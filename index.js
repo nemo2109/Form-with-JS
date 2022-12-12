@@ -44,72 +44,16 @@ function crearCuadroDeForma(name, gmail, job, cell, about){
    <div class="imagen">
    <img src="./images.png" class="img">
    <h4 id="titulo">Nohemy</h4>
-   <h3 id="titulo-2">Front End Dev</h3>
-   <section class="seccion">
-   <div class="box-1">
-     <form id="forma">
-       <div class="box-2">
-         <label for="name">Nombre</label>
-         <input
-           type="text"
-           placeholder="nombre"
-           required
-           class="input"
-           name="name"
-           id="name"
-         />
+   <h3 id="titulo-2">FrontEnd Dev</h3>
+   </div>
 
-         <label for="">Correo</label>
-         <input
-           type="email"
-           placeholder="correo"
-           required
-           name="email"
-           class="input"
-           id="email"
-         />
-       </div>
-       <div class="">
-         <label for="">Trabajo</label>
-         <input
-           type="text"
-           placeholder="trabajo"
-           required
-           class="input"
-           name="trabajo"
-           id="work"
-         />
-         <label for="">Telefono</label>
-         <input
-           type="text"
-           placeholder="telefono"
-           required
-           class="input"
-           name="telefono"
-           id="phone"
-         />
-       </div>
-       <label for="">Sobre ti</label>
-         <input
-           type="text"
-           placeholder="sobre.."
-           required
-           class="input1"
-           name="about"
-           id="about"
-         />
-       
-     </form>
+   <div> 
+   <h1 class="contenedor__nombre">${name}</h1>
+   <p class="contendor__p">${gmail}</p>
+   <p class="contenedor__p">${job}</p>
+   <p class="contenedor__p">${cell}</p>
+   <p class="contenedor__p">${about}</p>
    </div>
- </section>
-   </div>
-   <div > 
- <h1 class="contenedor__nombre">${name}</h1>
- <p class="contendor__p">${gmail}</p>
- <p class="contenedor__p">${job}</p>
- <p class="contenedor__p">${cell}</p>
- <p class="contenedor__p">${about}</p>
- </div>
    </div>
    `
    return cuadroHtml
